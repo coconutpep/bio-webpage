@@ -29,31 +29,35 @@ nav > ul > li a:hover {
     background-color: #111;
 }
 
-footer {
-    text-align: center;
-}
-
-address > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+html {
+    min-height: 100%;
     background-color: #333;
-    overflow:hidden;
+    background-image: linear-gradient(to bottom right, #333, #594094);
 }
 
-address > ul > li {
+body {
+    color:#929292;
+}
+
+p {
+    text-indent: 50px;
+    font-size: 18px;
+}
+
+figure {
+    padding-top: 50px;
+    width:auto;
     float: left;
-    border-right: 1px solid #bbb;
-    color: white;
-    margin: 2px;
-    padding: 2px;
-    padding-right: 5px;
+}
+
+img {
+    height: 300px;
+}
+
+h1 {
+    padding-top: 50px;
 }
 
 .active {
     background-color: #4CAF50;
-}
-
-#social {
-    padding-top:50px;
 }
