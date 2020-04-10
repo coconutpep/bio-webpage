@@ -50,6 +50,11 @@ address > ul > li {
     padding-right: 5px;
 }
 
+html {
+    background-color: #333;
+    background-image: linear-gradient(to bottom right, #333, #594094);
+}
+
 .active {
     background-color: #4CAF50;
 }
