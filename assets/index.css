@@ -29,44 +29,39 @@ nav > ul > li a:hover {
     background-color: #111;
 }
 
-footer {
-    text-align: center;
-}
-
-address > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    overflow:hidden;
-}
-
-address > ul > li {
-    float: left;
-    border-right: 1px solid #bbb;
-    color: white;
-    margin: 2px;
-    padding: 2px;
-    padding-right: 5px;
-}
-
 html {
+    min-height: 100%;
     background-color: #333;
     background-image: linear-gradient(to bottom right, #333, #594094);
+}
+
+body {
+    color:#929292;
+}
+
+p {
+    text-indent: 50px;
+    font-size: 18px;
+}
+
+figure {
+    padding-top: 50px;
+    width:auto;
+    float: left;
+}
+
+img {
+    height: 300px;
+}
+
+h1 {
+    padding-top: 130px;
 }
 
 .active {
     background-color: #4CAF50;
 }
 
-.bio {
-    text-align: center;
-}
-
-p.bio {
-    text-align: left;
-}
-
-#name {
-    padding-top:50px;
+#para1 {
+    padding-top: 80px;
 }
