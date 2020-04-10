@@ -29,14 +29,31 @@ nav > ul > li a:hover {
     background-color: #111;
 }
 
-.bio {
+footer {
     text-align: center;
 }
 
-p.bio {
-    text-align: left;
+address > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow:hidden;
 }
 
-#name {
+address > ul > li {
+    float: left;
+    border-right: 1px solid #bbb;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    padding-right: 5px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#projects {
     padding-top:50px;
 }

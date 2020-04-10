@@ -1,0 +1,59 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav > ul > li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+nav > ul > li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav > ul > li a:hover {
+    background-color: #111;
+}
+
+footer {
+    text-align: center;
+}
+
+address > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow:hidden;
+}
+
+address > ul > li {
+    float: left;
+    border-right: 1px solid #bbb;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    padding-right: 5px;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#skills {
+    padding-top:50px;
+}
