@@ -59,6 +59,10 @@ img {
     height: 100px;
 }
 
+ul {
+    margin-top:0;
+}
+
 .active {
     background-color: #4CAF50;
 }
@@ -66,10 +70,6 @@ img {
 #python {
     padding-top:10px;
     margin-bottom:5px;
-}
-
-#pythonlist {
-    margin-top:0;
 }
 
 #javascript {
@@ -102,4 +102,30 @@ img {
 
 #git {
     padding-top:10px;
+    margin-bottom:5px;
+}
+
+#gitlist {
+    margin-bottom:31px;
+}
+
+#sql {
+    margin-bottom: 130px;
+}
+
+#microsoft {
+    margin-bottom:5px;
+}
+
+#microsoftlist {
+    margin-bottom: 31px;
+}
+
+#spss {
+    margin-top: 65px;
+    margin-bottom: 80px;
+}
+
+#acrobatpic {
+    height:130px;
 }
