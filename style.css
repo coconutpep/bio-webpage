@@ -36,3 +36,7 @@ nav > ul > li a:hover {
 p.bio {
     text-align: left;
 }
+
+#name {
+    padding-top:50px;
+}
