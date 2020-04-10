@@ -39,25 +39,67 @@ body {
     color:#929292;
 }
 
-p {
-    text-indent: 50px;
-    font-size: 18px;
-}
-
-figure {
-    padding-top: 50px;
-    width:auto;
-    float: left;
-}
-
-img {
-    height: 300px;
+body > ul {
+    font-size:18px;
 }
 
 h1 {
+    font-size: 48px;
     padding-top: 50px;
+}
+
+figure {
+    margin-left:0;
+    padding-left:0;
+    width: auto;
+    float:left;
+}
+
+img {
+    height: 100px;
 }
 
 .active {
     background-color: #4CAF50;
+}
+
+#python {
+    padding-top:10px;
+    margin-bottom:5px;
+}
+
+#pythonlist {
+    margin-top:0;
+}
+
+#javascript {
+    padding-top: 8px;
+    margin-bottom:100px;
+}
+
+#htmllogo {
+    margin-bottom:0;
+}
+
+#htmlpic {
+    height:125px;
+}
+
+#html {
+    padding-top:12px;
+    margin-top:20px;
+    margin-bottom:110px;
+}
+
+#csspic {
+    height:125px;
+}
+
+#css {
+    padding-top:10px;
+    margin-bottom:130px;
+}
+
+#git {
+    padding-top:10px;
 }
