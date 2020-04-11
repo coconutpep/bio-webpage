@@ -43,6 +43,10 @@ body > ul {
     font-size:18px;
 }
 
+h1, h2 {
+    text-shadow: 2px 2px black;
+}
+
 h1 {
     font-size: 48px;
     padding-top: 50px;

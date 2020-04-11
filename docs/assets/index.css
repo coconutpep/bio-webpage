@@ -52,6 +52,11 @@ figure {
 
 img {
     height: 300px;
+    box-shadow: 2px 2px black;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 2px 2px black;
 }
 
 h1 {

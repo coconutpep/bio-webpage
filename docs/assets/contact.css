@@ -39,21 +39,40 @@ body {
     color:#929292;
 }
 
-p {
-    font-size: 18px;
+section {
+    height:430px;
 }
 
 h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 20px;
+}
+
+figure {
     padding-top: 50px;
+    width:auto;
+    float: left;
+}
+
+img {
+    height: 200px;
 }
 
 ul {
-    font-size:18px;
+    font-size: 18px;
 }
 
 a {
-    color: #929292
+    color:#929292;
 }
+
 .active {
     background-color: #4CAF50;
+}
+
+#social {
+    padding-top:50px;
 }
