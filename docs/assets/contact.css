@@ -40,24 +40,20 @@ body {
 }
 
 p {
-    text-indent: 50px;
     font-size: 18px;
-}
-
-figure {
-    padding-top: 50px;
-    width:auto;
-    float: left;
-}
-
-img {
-    height: 300px;
 }
 
 h1 {
     padding-top: 50px;
 }
 
+ul {
+    font-size:18px;
+}
+
+a {
+    color: #929292
+}
 .active {
     background-color: #4CAF50;
 }
